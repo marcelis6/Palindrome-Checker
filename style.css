@@ -1,0 +1,53 @@
+html { 
+    
+    background-color: black; 
+    margin: 0;
+    padding: 0;
+}
+h1 { 
+    color: red;
+    font-family: sans-serif;
+}
+#main { 
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+    width: 50%;
+    height: 400px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#le {
+    height: 20%;
+    width: 100%;
+    flex-grow: 2;
+}
+#le h1 { 
+    text-align: center;
+}
+#InputText { 
+    display: flex;
+   align-content: center;
+   align-items: flex-end;
+   justify-content: center;
+   height: 30%;
+   width: 100%;
+}
+#InputText input { 
+    font-size: large;
+    width: 200px;
+    height: 40px;
+}
+#CheckButton { 
+    display: flex;
+    width: 100%;
+  
+   align-items: flex-start;
+   justify-content: center;
+}
+#btn { 
+    align-items: center;
+}
+#answer { 
+    color: whitesmoke;
+}
