@@ -8,7 +8,7 @@ Button.addEventListener("click", function(){
 } );
 addEventListener("keypress", function(e){ 
    if(e.key === "Enter") {
-       text = this.document.getElementById("TXT").value;
+       text = this.document.getElementById("TXT").value.toLowerCase();
        TextReversal();
        console.log("enter pressed")
    }
@@ -22,4 +22,17 @@ function TextReversal(){
    console.log(text);
    console.log(text2);
 } 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
