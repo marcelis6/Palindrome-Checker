@@ -1,13 +1,11 @@
 * {
     margin:0;
     padding: 0;
+
 }
 html { 
-    color: black;
-    background-color: rgb(30, 30, 30) ;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
     margin: 0;
     padding: 0;
 }
@@ -18,6 +16,7 @@ h1 {
 }
 
 #main { 
+    border: 2px black solid;
     opacity: 80%;
     border-radius: 8px;
     display: flex;
