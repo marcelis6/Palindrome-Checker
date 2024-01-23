@@ -25,7 +25,7 @@ function TextReversal(){
    console.log(text2);
 } 
 function textinput(){ 
-    text = document.getElementById("TXT").value.toLowerCase();
+    text = document.getElementById("TXT").value.toLowerCase().replaceAll(' ', '');
     text2 = text.split("").reverse().join("");
     TextReversal();
 }
