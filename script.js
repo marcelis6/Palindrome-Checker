@@ -1,28 +1,34 @@
 let text;
 let odp = document.getElementById("answer");
-const Button = document.getElementById("btn");
+let text2;
 
-Button.addEventListener("click", function(){
-   text = document.getElementById("TXT").value;
-   TextReversal();
-} );
-addEventListener("keypress", function(e){ 
+
+addEventListener("keypress", (e) => { 
    if(e.key === "Enter") {
-       text = this.document.getElementById("TXT").value.toLowerCase();
-       TextReversal();
-       console.log("enter pressed")
+      textinput();
+       console.log("enter pressed");
    }
 })
+document.getElementById("btn").addEventListener("click", () => {
+    
+    textinput();
+    console.log("clicked");
+    
+  } );
 
 function TextReversal(){
-    let text2 = text.split("").reverse().join("");
+   
    if (text == text2){
        odp.innerHTML = "This is a Palindrome :D";
    } else odp.innerHTML = "That's not a Palindrome :(";
    console.log(text);
    console.log(text2);
 } 
-
+function textinput(){ 
+    text = document.getElementById("TXT").value.toLowerCase();
+    text2 = text.split("").reverse().join("");
+    TextReversal();
+}
 
 
 

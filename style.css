@@ -4,19 +4,19 @@
 
 }
 html { 
-    background: rgb(131,58,180);
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    margin: 0;
+    background-color: rgb(118, 33, 118);
+       margin: 0;
     padding: 0;
 }
 h1 { 
     
-    color: rgb(14, 13, 13);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:  rgb(118, 33, 118);
+    font-family: Poppins;
 }
 
 #main { 
-    border: 2px black solid;
+    background-color: white;
+    box-shadow: 10px;
     opacity: 80%;
     border-radius: 8px;
     display: flex;
@@ -26,18 +26,25 @@ h1 {
     height: 400px;
     justify-content: center;
     flex-direction: column;
-background: rgb(131,58,180);
-background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
-    
+   
   
 }
 #le {
-    margin-top: 5%;
-   margin-bottom: 80px;
+    margin-top: 1%;
+   margin-bottom: 20px;
    
 }
 #le h1 { 
     text-align: center;
+}
+#Explanation {
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+#Explanation > p { 
+    width: 80%;
+   
 }
 #InputText { 
     display: flex;
@@ -50,10 +57,11 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 }
 #InputText input { 
     font-size: large;
-    width: 200px;
+    width: 50%;
     height: 40px;
-    border-radius: 20px;
-    border-color: black;
+    border-radius: 5px;
+    border: 1px black solid;
+
     
 }
 #CheckButton { 
@@ -66,17 +74,17 @@ background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%,
 #btn { 
     
     align-items: center;
-    width: 70px;
+    width: 50%;
     height: 35px;
-    background-color: black;
-    border-color: black;
+    background-color:  rgb(118, 33, 118);
+    border: 0px ;
     border-radius: 5px;
-    color: whitesmoke;
+    color: white;
 }
 #answer { 
     margin-top: 20px;
-    font-size: large;
-    color: whitesmoke;
+    font-size: large; 
+    color: black;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
